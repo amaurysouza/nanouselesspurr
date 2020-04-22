@@ -15,30 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-Ul-hZb">
-                                <rect key="frame" x="64" y="343" width="285" height="209"/>
-                                <state key="normal" title="Ronrronar" image="cat.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-Ul-hZb">
+                                <rect key="frame" x="-50" y="-1" width="464" height="903"/>
+                                <state key="normal" title="Ronrronar" image="cat.jpg"/>
                                 <connections>
                                     <action selector="ronronar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8D-LW-Ski"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Touch the cat to feel it purr!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbX-ce-FSG">
-                                <rect key="frame" x="33" y="209" width="348" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VQ2-Ul-hZb" secondAttribute="bottom" constant="310" id="AVa-QW-pWq"/>
-                            <constraint firstItem="VQ2-Ul-hZb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="XGs-VY-aUa"/>
-                            <constraint firstItem="VQ2-Ul-hZb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="299" id="rP0-ES-uBS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VQ2-Ul-hZb" secondAttribute="trailing" constant="65" id="ySI-fp-IL5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VQ2-Ul-hZb" secondAttribute="bottom" constant="-40" id="AVa-QW-pWq"/>
+                            <constraint firstItem="VQ2-Ul-hZb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-50" id="XGs-VY-aUa"/>
+                            <constraint firstItem="VQ2-Ul-hZb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-45" id="rP0-ES-uBS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VQ2-Ul-hZb" secondAttribute="trailing" id="ySI-fp-IL5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ronronar" destination="VQ2-Ul-hZb" id="FhX-35-hKk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cat.png" width="284" height="207"/>
+        <image name="cat.jpg" width="768" height="1024"/>
     </resources>
 </document>

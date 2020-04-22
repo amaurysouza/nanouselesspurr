@@ -11,15 +11,22 @@ import CoreHaptics
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var ronronar: UIButton!
     var engine: CHHapticEngine!
     lazy var supportsHaptics: Bool = {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.supportsHaptics
     }()
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         createEngine()
+        ronronar.imageView?.contentMode = .scaleAspectFill
+        
       
     }
 
@@ -86,6 +93,7 @@ class ViewController: UIViewController {
     
     @IBAction func ronronar(_ sender: Any) {
         playHapticsFile(named: "Rumble")
+
     }
 }
 

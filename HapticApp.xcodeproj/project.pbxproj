@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E34E495B24502C79009EC709 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E34E495A24502C78009EC709 /* cat.jpg */; };
 		E38637B2244A67050025DF72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38637B1244A67050025DF72 /* AppDelegate.swift */; };
 		E38637B4244A67050025DF72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38637B3244A67050025DF72 /* SceneDelegate.swift */; };
 		E38637B6244A67050025DF72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38637B5244A67050025DF72 /* ViewController.swift */; };
@@ -14,10 +15,11 @@
 		E38637BB244A67090025DF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38637BA244A67090025DF72 /* Assets.xcassets */; };
 		E38637BE244A67090025DF72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38637BC244A67090025DF72 /* LaunchScreen.storyboard */; };
 		E38637C6244A6F180025DF72 /* Rumble.ahap in Resources */ = {isa = PBXBuildFile; fileRef = E38637C5244A6F180025DF72 /* Rumble.ahap */; };
-		E38637C8244A708E0025DF72 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = E38637C7244A708E0025DF72 /* cat.png */; };
+		E38637CC2450181C0025DF72 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = E38637CB2450181B0025DF72 /* cat2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E34E495A24502C78009EC709 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 		E38637AE244A67050025DF72 /* HapticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38637B1244A67050025DF72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38637B3244A67050025DF72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		E38637BD244A67090025DF72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38637BF244A67090025DF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38637C5244A6F180025DF72 /* Rumble.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rumble.ahap; sourceTree = "<group>"; };
-		E38637C7244A708E0025DF72 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		E38637CB2450181B0025DF72 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 				E38637B1244A67050025DF72 /* AppDelegate.swift */,
 				E38637B3244A67050025DF72 /* SceneDelegate.swift */,
 				E38637B5244A67050025DF72 /* ViewController.swift */,
-				E38637C7244A708E0025DF72 /* cat.png */,
 				E38637C5244A6F180025DF72 /* Rumble.ahap */,
+				E34E495A24502C78009EC709 /* cat.jpg */,
+				E38637CB2450181B0025DF72 /* cat2.png */,
 				E38637B7244A67050025DF72 /* Main.storyboard */,
 				E38637BA244A67090025DF72 /* Assets.xcassets */,
 				E38637BC244A67090025DF72 /* LaunchScreen.storyboard */,
@@ -131,11 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38637C8244A708E0025DF72 /* cat.png in Resources */,
 				E38637BE244A67090025DF72 /* LaunchScreen.storyboard in Resources */,
 				E38637BB244A67090025DF72 /* Assets.xcassets in Resources */,
 				E38637C6244A6F180025DF72 /* Rumble.ahap in Resources */,
 				E38637B9244A67050025DF72 /* Main.storyboard in Resources */,
+				E34E495B24502C79009EC709 /* cat.jpg in Resources */,
+				E38637CC2450181C0025DF72 /* cat2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
